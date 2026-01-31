@@ -1,0 +1,22 @@
+{
+  "name": "eoffice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^40.1.0",
+    "electron-builder": "^26.4.0"
+  },
+  "build": {
+    "appId": "com.company.eoffice",
+    "productName": "eOffice",
+    "win": {
+      "icon": "logo.ico",
+      "target": "nsis"
+    }
+  }
+}
